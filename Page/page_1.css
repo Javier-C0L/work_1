@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    background-position: 10%;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 15px;
+}
+
+nav ul {
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    width: 150px;
+}
+
+nav li:hover {
+    background-color: brown;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.table {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 4px;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 4px;
+}
+
+th {
+    background-color: black;
+    padding: 4px;
+    color: #fff;
+}
